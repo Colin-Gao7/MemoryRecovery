@@ -42,10 +42,7 @@ namespace MR.Service
 
         public override MRDocument ReadDocumentText()
         {
-            if (false)// if file or source was not modified, return cache object, base on md5 check.
-            {
-                return this.mrdocumentCache;
-            }
+       
             // 可据此抠出memo片段。前提按要求的格式良好的word文档。
             //            a7 计算机组成原理
             //1  计算机系统体系结构
